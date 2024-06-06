@@ -1,0 +1,186 @@
+
+/*------------ description ------------------ */
+.descriptionSection{
+    display:grid;
+    grid-template-columns: auto 40%;
+    column-gap: 20px;
+}
+
+ .titleCard{
+    display: flex;
+    justify-content: space-between;
+    color: #0a46a5;
+    font-weight: 500;
+    column-gap: 20px;
+    padding-right: 10px;
+}
+
+ .titleCard p{
+    margin-bottom: 10px;
+}
+
+.descrip{
+    height: calc(100vh - 270px);
+    padding: 20px 3%;
+    border: 2px solid #f09115;
+    border-radius: 10px;
+}
+
+
+.scrollData{
+    height: calc(100% - 60px);
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.scrollData::-webkit-scrollbar, .allInfo::-webkit-scrollbar, .scrollDataR::-webkit-scrollbar{
+    width: 4px;
+    border-radius: 5px;
+}
+
+.scrollData::-webkit-scrollbar-thumb, .allInfo::-webkit-scrollbar-thumb, .scrollDataR::-webkit-scrollbar-thumb{
+    background: #A1A1AA;
+}
+
+/* -------------All -------------- */
+
+.titleCardAll, .titleCardAllImg{
+    display: flex;
+    justify-content: space-between;
+    color: #0a46a5;
+    font-weight: 500;
+    column-gap: 20px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 6px;
+    background: #e9f0ff;
+}
+
+.titleCardAll:nth-child(1){
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 10% auto auto;
+}
+
+.allInfoSection{
+    height: calc(100vh - 270px);
+    padding: 20px 3%;
+    border: 2px solid #f09115;
+    border-radius: 10px;
+}
+
+.allInfo{
+    height: 100%;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* con Image All */
+
+.titleCardAllImg p:nth-child(1){
+    width: 140px;
+}
+
+
+.allwithImages{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.imageAllDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #A855F7;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* ----------- Object */
+
+.objectsSection{
+    display: grid;
+    grid-template-columns: 40% auto;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.imageObject{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #1475cf;
+    display: grid;
+    place-items: center;
+
+}
+
+.imageObject img, .imageAllDiv img, .peopleImageDiv img{
+    max-width: 100%;
+    max-height: calc(100vh - 230px);
+    object-fit: contain;
+}
+
+.readImage img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* ---- people */
+
+.peopleImageDiv{
+    height: calc(100vh - 230px);
+    border: 2px solid #1475cf;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+
+
+.captionText{
+    text-align: center;
+    border: 2px solid #A855F7;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    p{
+        margin: 5px 10px;
+        span{
+            color: #0a46a5;
+            font-weight: 500;
+        }
+    }
+}
+
+/* read --------- */
+
+.readImage{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    border: 2px solid #1475cf;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.scrollDataR .titleCard{
+    width: 100%;
+}
+
+.scrollDataR{
+    height: 100%;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+}

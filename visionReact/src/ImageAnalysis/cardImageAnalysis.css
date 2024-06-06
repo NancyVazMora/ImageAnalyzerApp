@@ -1,0 +1,46 @@
+/* card description */
+
+.descriptionCard, .ObjectCard{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    column-gap: 40px;
+    width: 100%;
+}
+
+.descriptionCardAll{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    text-align: center;
+    column-gap: 30px;
+    width: 100%;
+
+}
+
+.descriptionCard p, .descriptionCardAll p, .ObjectCard p{
+    margin-bottom: 0;
+}
+
+.descStyle{
+    text-align: left;
+}
+
+.idStyle{
+    width: 100px;
+    text-align: center;
+}
+
+.descriptionCardAll p{
+    text-align: center;
+}
+
+.descriptionCardAll p:nth-child(1){
+    width: 70px;
+}
+
+.descriptionCardAll p:nth-child(3){
+    width: 100px;
+}
+
+
