@@ -1,6 +1,9 @@
 # ImageAnalyzerApp 
 Fullstack project to demonstrate usage of azure computer vision from Cognitive Services
 
+![alt text](https://github.com/NancyVazMora/ImageAnalyzerApp/blob/main/Example/7.png?raw=true)
+
+
 ## Installation to backend
 - pip install Flask
 - pip install Flask-Cors
