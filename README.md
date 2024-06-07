@@ -18,7 +18,7 @@ In the Example folder there are images of the application.
 
 ## Execution
 
-To run the backend you have to run the script cognitiveServer.py (python3 cognitiveServer.py). It is important that before running the python script you run the commands with your Azure credentials (key and endpoint):
+To run the backend you have to run the script cognitiveServer.py (python3 cognitiveServer.py). It is important before running the python script you run the commands with your Azure credentials (key and endpoint):
 - export VISION_KEY=<your_key>
 - export VISION_ENDPOINT=<your_endpoint>
 
